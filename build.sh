@@ -12,4 +12,4 @@ mix phx.digest
 
 mix deps.compile
 
-mix phx.release --env=prod
+MIX_ENV=prod mix release --env=prod
